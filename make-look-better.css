@@ -23,6 +23,8 @@
   --cursor-stackoverflow: url("assets/cursor-stackoverflow.png");
   --cursor-linkedin: url("assets/cursor-linkedin.png");
   --cursor-viblo: url("assets/cursor-viblo.png");
+  --cursor-zalo: url("assets/cursor-zalo.png");
+  --cursor-mail: url("assets/cursor-mail.png");
 
   /* Spacing*/
   --indent: 40px;
@@ -369,6 +371,14 @@ body {
 
 .social-contact__twitter {
   cursor: var(--cursor-twitter), auto; 
+}
+
+.social-contact__zalo {
+  cursor: var(--cursor-zalo), auto; 
+}
+
+.social-contact__mail {
+  cursor: var(--cursor-mail), auto; 
 }
 
 .social-contact__github {
